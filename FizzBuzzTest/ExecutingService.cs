@@ -92,11 +92,11 @@ namespace FizzBuzzTest
 
             foreach (var i in temp)
             {
-                if (i % 6 == 0) result.Add($"Fizz");
+                if (i % 6 == 0) result.Add($"FizzBuzz");
 
                 else if (i % 4 == 0) result.Add($"Buzz");
 
-                else if (i % 2 == 0) result.Add($"FizzBuzz");
+                else if (i % 2 == 0) result.Add($"Fizz");
 
             }
             return result;
@@ -118,11 +118,11 @@ namespace FizzBuzzTest
             foreach (var i in tempResult)
             {
 
-                if (i == "Fizz") { Console.BackgroundColor = ConsoleColor.Yellow; Console.WriteLine(i); }
+                if (i == "FizzBuzz") { Console.BackgroundColor = ConsoleColor.Cyan; Console.WriteLine(i); } 
 
                 else if (i == "Buzz") { Console.BackgroundColor = ConsoleColor.Red; Console.WriteLine(i); }
 
-                else if (i == "FizzBuzz") { Console.BackgroundColor = ConsoleColor.Cyan; Console.WriteLine(i); }
+                else if (i == "Fizz") { Console.BackgroundColor = ConsoleColor.Yellow; Console.WriteLine(i); }
             }
         }
 
