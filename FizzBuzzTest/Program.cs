@@ -50,8 +50,7 @@ namespace FizzBuzzTest
     {
         static void Main(string[] args)
         {
-            ExecutingService executingService = new ExecutingService();
-
+            IExecutingService executingService = new ExecutingService();
             // Задание №1
 
             Console.WriteLine("\n Задание 1 \n");
